@@ -73,7 +73,7 @@
     "test": "jest",
     "test:coverage": "jest --collect-coverage",
     "test:watch": "jest --watch --verbose false",
-    "types": "tsc --noEmit"
+    "types": "tsc --outDir '/tmp/tsc-void' # https://github.com/Microsoft/TypeScript/issues/30661"
   },
   "version": "1.0.0"
 }
