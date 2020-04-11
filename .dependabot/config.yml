@@ -1,6 +1,9 @@
 update_configs:
   - allowed_updates:
       - match:
+          dependency_type: all
+          update_type: security
+      - match:
           dependency_type: direct
           update_type: all
     commit_message:
@@ -9,8 +12,8 @@ update_configs:
     directory: /
     ignored_updates:
       - match:
-          dependency_name: '@types/nock'
-          version_requirement: < 12
+          dependency_name: '@types/node'
+          version_requirement: '> 12'
     package_manager: javascript
     update_schedule: live
     version_requirement_updates: increase_versions
