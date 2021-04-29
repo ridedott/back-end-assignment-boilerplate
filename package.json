@@ -24,7 +24,8 @@
     "ts-node": "^9.1.1"
   },
   "engines": {
-    "node": "12"
+    "node": ">=14",
+    "npm": ">=7"
   },
   "files": [
     "lib",
