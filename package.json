@@ -6,7 +6,7 @@
   },
   "description": "npm package template",
   "devDependencies": {
-    "@commitlint/cli": "^16.0.1",
+    "@commitlint/cli": "^16.0.2",
     "@commitlint/config-conventional": "^16.0.0",
     "@ridedott/eslint-config": "^1.1.44",
     "@types/jest": "^27.4.0",
