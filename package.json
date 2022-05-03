@@ -13,7 +13,7 @@
     "@types/node": "^17.0.31",
     "commitizen": "^4.2.4",
     "cspell": "^5.20.0",
-    "eslint": "^7.32.0",
+    "eslint": "^8.14.0",
     "fast-check": "^2.25.0",
     "husky": "^7.0.4",
     "jest": "^26.6.3",
